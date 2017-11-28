@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	 <!-- Latest compiled and minified CSS -->
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+         <!-- jQuery library -->
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+         <!-- Latest compiled JavaScript -->
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+         <!--custom css and jquery -->
+         <link rel="stylesheet" href="static/upload.css">
+         <script src="javascript/upload.js"></script>
+    </head>
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <a class="navbar-brand" href="">PiBuddy Beta v1.0</a>
+            </div>
+        </nav>
+        <br/>
+        <body>
+            <div class="card card-inverse primary mb-3" style="background-color: #333; border-color: #333;">
+                <label class="Tiles"> Select a file to execute (only python) </label>
+                <br/>
+			             <form id="fileinfo" name="fileinfo" class="btn btn-file btn-primary">
+                     <label>click to upload:</label>
+                     <input class="btn btn-primary btn-file" type="file" name="upload" id= "input" required />
+                   </form>
+                <br/>
+                <br/>
+                <input type='submit' id="upload" class="btn btn-alert"form= "fileinfo">
+            </div>
+            <br/>
+            <div class="card card-inverse primary mb-3" style="background-color: #333">
+                <label class="Tiles"> terminal </label>
+                <br/>
+                <textarea id="output"> </textarea>
+            </div>
+        </body>
+</html>

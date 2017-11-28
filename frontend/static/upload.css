@@ -1,0 +1,44 @@
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    cursor: inherit;
+    display: block;
+    text-align: center;
+}
+
+.Tiles {
+    color: white;
+    font-size: 30px;
+}
+
+textarea {
+    background: grey;
+    resize: none;
+    width: 900px;
+    height: 300px;
+    font-size: 120%;
+    color: #49fb35;
+    font-family: "Courier New", "Lucida Console"
+}
+
+div{
+    text-align: center;
+}
+body{
+    background: grey;
+}
